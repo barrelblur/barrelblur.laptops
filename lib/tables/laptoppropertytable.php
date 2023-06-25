@@ -9,7 +9,7 @@ use Bitrix\Main\ORM\Fields\StringField;
 
 class LaptopPropertyTable extends AbstractDataManager implements Seedable
 {
-    public static array $resources = ['laptop_properties', 'laptops'];
+    public static array $resources = ['laptop_properties'];
 
     public static function getTableName(): string
     {
@@ -20,9 +20,15 @@ class LaptopPropertyTable extends AbstractDataManager implements Seedable
     {
         return [
             new IntegerField('ID', ['primary' => true, 'autocomplete' => true]),
-            new StringField('NAME', ['required' => true]),
+            new IntegerField('LAPTOP_ID', ['required' => true]),
+            new IntegerField('PROPERTY_ID', ['required' => true]),
         ];
     }
 
-    public static function seed(array $resources): void { }
+    public static function seed(array $resources): void
+    {
+        if (!empty($resources['laptop_properties'])) {
+            self::addMulti($resources['laptop_properties']);
+        }
+    }
 }

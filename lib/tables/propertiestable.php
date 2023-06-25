@@ -24,5 +24,10 @@ class PropertiesTable extends AbstractDataManager implements Seedable
         ];
     }
 
-    public static function seed(array $resources): void { }
+    public static function seed(array $resources): void
+    {
+        if (!empty($resources['properties'])) {
+            self::addMulti($resources['properties']);
+        }
+    }
 }
