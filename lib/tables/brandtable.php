@@ -11,7 +11,7 @@ use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 
 class BrandTable extends AbstractDataManager implements Seedable
 {
-    public static array $resources = ['brands'];
+    public static string $resource = 'brands.json';
 
     public static function getTableName(): string
     {
@@ -34,10 +34,10 @@ class BrandTable extends AbstractDataManager implements Seedable
         ];
     }
 
-    public static function seed(array $resources): void
+    public static function seed(array $resource): void
     {
-        if (!empty($resources['brands'])) {
-            self::addMulti($resources['brands']);
+        if (!empty($resource)) {
+            self::addMulti($resource);
         }
     }
 }

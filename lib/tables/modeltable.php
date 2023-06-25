@@ -10,7 +10,7 @@ use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 
 class ModelTable extends AbstractDataManager implements Seedable
 {
-    public static array $resources = ['models'];
+    public static string $resource = 'models.json';
 
     public static function getTableName(): string
     {
@@ -34,10 +34,10 @@ class ModelTable extends AbstractDataManager implements Seedable
         ];
     }
 
-    public static function seed(array $resources): void
+    public static function seed(array $resource): void
     {
-        if (!empty($resources['models'])) {
-            self::addMulti($resources['models']);
+        if (!empty($resource)) {
+            self::addMulti($resource);
         }
     }
 }

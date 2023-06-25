@@ -9,7 +9,7 @@ use Bitrix\Main\ORM\Fields\StringField;
 
 class LaptopPropertyTable extends AbstractDataManager implements Seedable
 {
-    public static array $resources = ['laptop_properties'];
+    public static string $resource = 'laptop_properties.json';
 
     public static function getTableName(): string
     {
@@ -25,10 +25,10 @@ class LaptopPropertyTable extends AbstractDataManager implements Seedable
         ];
     }
 
-    public static function seed(array $resources): void
+    public static function seed(array $resource): void
     {
-        if (!empty($resources['laptop_properties'])) {
-            self::addMulti($resources['laptop_properties']);
+        if (!empty($resource)) {
+            self::addMulti($resource);
         }
     }
 }

@@ -48,38 +48,30 @@ class MigrationManager
     public static function seed(): void
     {
         foreach (static::$models as $model) {
-            $model::seed(static::loadDumps($model::$resources));
+            $model::seed(static::loadResource($model::$resource));
         }
     }
 
-    public static function loadDumps(array $resources = []): array
+    public static function loadResource(string $filename): array
     {
-        $collected = [];
-        $path = __DIR__ . '/../resources';
+        $path = __DIR__ . '/../resources/' . $filename;
 
-        foreach ($resources as $filename) {
-            $name = $filename . '.json';
-            $destination = $path . '/' . $name;
-
-            if (file_exists($destination)) {
-                $raw = file_get_contents($destination);
-
-                if ($raw === false) {
-                    throw new FileOpenException('Can\'t get content from ' . $name);
-                }
-
-                $json = json_decode($raw, true);
-
-                if (json_last_error() !== JSON_ERROR_NONE) {
-                    throw new \JsonException('Failed to parse JSON: ' . json_last_error_msg());
-                }
-
-                $collected[$filename] = $json;
-            } else {
-                throw new FileNotFoundException('File ' . $name . ' is not existing');
-            }
+        if (!file_exists($path)) {
+            throw new FileNotFoundException('File ' . $filename . ' is not existing');
         }
 
-        return $collected;
+        $raw = file_get_contents($path);
+
+        if ($raw === false) {
+            throw new FileOpenException('Can\'t get content from ' . $filename);
+        }
+
+        $json = json_decode($raw, true);
+
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            throw new \JsonException('Failed to parse JSON: ' . json_last_error_msg());
+        }
+
+        return $json;
     }
 }

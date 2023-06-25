@@ -12,7 +12,7 @@ use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 
 class LaptopTable extends AbstractDataManager implements Seedable
 {
-    public static array $resources = ['laptops'];
+    public static string $resource = 'laptops.json';
 
     public static function getTableName(): string
     {
@@ -39,10 +39,10 @@ class LaptopTable extends AbstractDataManager implements Seedable
         ];
     }
 
-    public static function seed(array $resources): void
+    public static function seed(array $resource): void
     {
-        if (!empty($resources['laptops'])) {
-            self::addMulti($resources['laptops']);
+        if (!empty($resource)) {
+            self::addMulti($resource);
         }
     }
 }

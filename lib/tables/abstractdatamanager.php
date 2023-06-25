@@ -6,7 +6,7 @@ use Bitrix\Main\ORM\Data\DataManager;
 
 class AbstractDataManager extends DataManager
 {
-    public static array $resources = [];
+    public ?string $resources = null;
 
-    public static function seed(array $resources): void { }
+    public static function seed(array $resource): void { }
 }
