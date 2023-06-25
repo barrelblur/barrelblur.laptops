@@ -7,7 +7,7 @@ use Bitrix\Main\ORM\Fields\IntegerField;
 use Bitrix\Main\ORM\Fields\StringField;
 
 
-class PropertiesTable extends AbstractDataManager implements Seedable
+class PropertiesTable extends AbstractDataManager
 {
     public static string $resource = 'properties.json';
 
@@ -22,12 +22,5 @@ class PropertiesTable extends AbstractDataManager implements Seedable
             new IntegerField('ID', ['primary' => true, 'autocomplete' => true]),
             new StringField('NAME', ['required' => true]),
         ];
-    }
-
-    public static function seed(array $resource): void
-    {
-        if (!empty($resource)) {
-            self::addMulti($resource);
-        }
     }
 }

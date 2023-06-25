@@ -9,7 +9,7 @@ use Bitrix\Main\ORM\Fields\StringField;
 use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 
 
-class BrandTable extends AbstractDataManager implements Seedable
+class BrandTable extends AbstractDataManager
 {
     public static string $resource = 'brands.json';
 
@@ -32,12 +32,5 @@ class BrandTable extends AbstractDataManager implements Seedable
             ]),
             new StringField('NAME', ['required' => true]),
         ];
-    }
-
-    public static function seed(array $resource): void
-    {
-        if (!empty($resource)) {
-            self::addMulti($resource);
-        }
     }
 }

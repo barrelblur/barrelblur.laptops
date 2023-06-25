@@ -48,7 +48,15 @@ class MigrationManager
     public static function seed(): void
     {
         foreach (static::$models as $model) {
-            $model::seed(static::loadResource($model::$resource));
+            if (!$model::$resource) {
+                continue;
+            }
+
+            $loadedResource = static::loadResource($model::$resource);
+
+            if (!empty($loadedResource)) {
+                $model::addMulti($loadedResource);
+            }
         }
     }
 

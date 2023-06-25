@@ -13,7 +13,7 @@ use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 use Bitrix\Main\Type\Date;
 
 
-class LaptopTable extends AbstractDataManager implements Seedable
+class LaptopTable extends AbstractDataManager
 {
     public static string $resource = 'laptops.json';
 
@@ -60,12 +60,5 @@ class LaptopTable extends AbstractDataManager implements Seedable
         $result->modifyFields(['AT_ANNOUNCED' => new Date($fields['AT_ANNOUNCED'], 'Y-m-d')]);
 
         return $result;
-    }
-
-    public static function seed(array $resource): void
-    {
-        if (!empty($resource)) {
-            self::addMulti($resource);
-        }
     }
 }
