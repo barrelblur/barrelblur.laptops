@@ -2,9 +2,7 @@
 
 namespace Barrelblur\Laptops\Tables;
 
-use Barrelblur\Laptops\Contracts\Seedable;
 use Bitrix\Main\ORM\Fields\IntegerField;
-use Bitrix\Main\ORM\Fields\StringField;
 
 
 class LaptopPropertyTable extends AbstractDataManager
