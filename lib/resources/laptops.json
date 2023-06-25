@@ -1,1 +1,515 @@
-[]
+[
+  {
+    "ID": 1,
+    "NAME": "Ноутбук Acer Aspire 3 A315-34 (NX.HE3ER.026)",
+    "CODE": "noutbook-acer-aspire-3-a315-34-nx-he3er-026",
+    "MODEL_ID": 1,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-05-15",
+    "PRICE": 36999
+  },
+  {
+    "ID": 2,
+    "NAME": "Ноутбук Acer Aspire 3 A315-34 (NX.HE3ER.027)",
+    "CODE": "noutbook-acer-aspire-3-a315-34-nx-he3er-027",
+    "MODEL_ID": 1,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-05-15",
+    "PRICE": 39999
+  },
+  {
+    "ID": 3,
+    "NAME": "Ноутбук Acer Aspire 3 A315-34 (NX.HE3ER.028)",
+    "CODE": "noutbook-acer-aspire-3-a315-34-nx-he3er-028",
+    "MODEL_ID": 1,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-05-15",
+    "PRICE": 42999
+  },
+  {
+    "ID": 4,
+    "NAME": "Ноутбук Acer Extensa 15 EX215-51 (NX.EFVER.01D)",
+    "CODE": "noutbook-acer-extensa-15-ex215-51-nx-efver-01d",
+    "MODEL_ID": 2,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-07-01",
+    "PRICE": 43999
+  },
+  {
+    "ID": 5,
+    "NAME": "Ноутбук Acer Extensa 15 EX215-51 (NX.EFVER.01E)",
+    "CODE": "noutbook-acer-extensa-15-ex215-51-nx-efver-01e",
+    "MODEL_ID": 2,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-07-01",
+    "PRICE": 46999
+  },
+  {
+    "ID": 6,
+    "NAME": "Ноутбук Acer Extensa 15 EX215-51 (NX.EFVER.01F)",
+    "CODE": "noutbook-acer-extensa-15-ex215-51-nx-efver-01f",
+    "MODEL_ID": 2,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-07-01",
+    "PRICE": 49999
+  },
+  {
+    "ID": 7,
+    "NAME": "Ноутбук Acer Nitro 5 AN515-45-R2EP",
+    "CODE": "noutbook-acer-nitro-5-an515-45-r2ep",
+    "MODEL_ID": 3,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-09-01",
+    "PRICE": 59999
+  },
+  {
+    "ID": 8,
+    "NAME": "Ноутбук Acer Nitro 5 AN515-45-R6RB",
+    "CODE": "noutbook-acer-nitro-5-an515-45-r6rb",
+    "MODEL_ID": 3,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-09-01",
+    "PRICE": 63999
+  },
+  {
+    "ID": 9,
+    "NAME": "Ноутбук Acer Nitro 5 AN515-45-R83W",
+    "CODE": "noutbook-acer-nitro-5-an515-45-r83w",
+    "MODEL_ID": 3,
+    "BRAND_ID": 1,
+    "AT_ANNOUNCED": "2022-09-01",
+    "PRICE": 67999
+  },
+  {
+    "ID": 10,
+    "NAME": "Ноутбук MacBook Air 13 (M1, 2020)",
+    "CODE": "noutbook-macbook-air-13-m1-2020",
+    "MODEL_ID": 4,
+    "BRAND_ID": 2,
+    "AT_ANNOUNCED": "2020-11-10",
+    "PRICE": 89999
+  },
+  {
+    "ID": 11,
+    "NAME": "Ноутбук MacBook Air 13 (M1, 2021)",
+    "CODE": "noutbook-macbook-air-13-m1-2021",
+    "MODEL_ID": 4,
+    "BRAND_ID": 2,
+    "AT_ANNOUNCED": "2021-10-18",
+    "PRICE": 99999
+  },
+  {
+    "ID": 12,
+    "NAME": "Ноутбук MacBook Air 13 (Intel, 2020)",
+    "CODE": "noutbook-macbook-air-13-intel-2020",
+    "MODEL_ID": 4,
+    "BRAND_ID": 2,
+    "AT_ANNOUNCED": "2020-03-18",
+    "PRICE": 79999
+  },
+  {
+    "ID": 13,
+    "NAME": "Ноутбук MacBook Pro 13 (M1, 2020)",
+    "CODE": "noutbook-macbook-pro-13-m1-2020",
+    "MODEL_ID": 5,
+    "BRAND_ID": 2,
+    "AT_ANNOUNCED": "2020-11-10",
+    "PRICE": 109999
+  },
+  {
+    "ID": 14,
+    "NAME": "Ноутбук MacBook Pro 13 (M1, 2021)",
+    "CODE": "noutbook-macbook-pro-13-m1-2021",
+    "MODEL_ID": 5,
+    "BRAND_ID": 2,
+    "AT_ANNOUNCED": "2021-10-18",
+    "PRICE": 119999
+  },
+  {
+    "ID": 15,
+    "NAME": "Ноутбук MacBook Pro 16 (Intel, 2019)",
+    "CODE": "noutbook-macbook-pro-16-intel-2019",
+    "MODEL_ID": 5,
+    "BRAND_ID": 2,
+    "AT_ANNOUNCED": "2019-11-13",
+    "PRICE": 169999
+  },
+  {
+    "ID": 16,
+    "NAME": "Ноутбук ASUS VivoBook 15 X515EA",
+    "CODE": "noutbook-asus-vivobook-15-x515ea",
+    "MODEL_ID": 6,
+    "BRAND_ID": 3,
+    "AT_ANNOUNCED": "2021-01-01",
+    "PRICE": 49999
+  },
+  {
+    "ID": 17,
+    "NAME": "Ноутбук ASUS VivoBook S15 S533EA",
+    "CODE": "noutbook-asus-vivobook-s15-s533ea",
+    "MODEL_ID": 6,
+    "BRAND_ID": 3,
+    "AT_ANNOUNCED": "2021-01-01",
+    "PRICE": 59999
+  },
+  {
+    "ID": 18,
+    "NAME": "Ноутбук ASUS VivoBook Flip 14 TM420IA",
+    "CODE": "noutbook-asus-vivobook-flip-14-tm420ia",
+    "MODEL_ID": 6,
+    "BRAND_ID": 3,
+    "AT_ANNOUNCED": "2020-07-01",
+    "PRICE": 64999
+  },
+  {
+    "ID": 19,
+    "NAME": "Ноутбук Dell Inspiron 15 3000",
+    "CODE": "noutbook-dell-inspiron-15-3000",
+    "MODEL_ID": 7,
+    "BRAND_ID": 4,
+    "AT_ANNOUNCED": "2020-03-01",
+    "PRICE": 44999
+  },
+  {
+    "ID": 20,
+    "NAME": "Ноутбук Dell Inspiron 13 5000",
+    "CODE": "noutbook-dell-inspiron-13-5000",
+    "MODEL_ID": 7,
+    "BRAND_ID": 4,
+    "AT_ANNOUNCED": "2021-06-01",
+    "PRICE": 64999
+  },
+  {
+    "ID": 21,
+    "NAME": "Ноутбук Dell Inspiron 17 7000",
+    "CODE": "noutbook-dell-inspiron-17-7000",
+    "MODEL_ID": 7,
+    "BRAND_ID": 4,
+    "AT_ANNOUNCED": "2020-09-01",
+    "PRICE": 79999
+  },
+  {
+    "ID": 22,
+    "NAME": "Ноутбук ASUS ROG Strix G15",
+    "CODE": "noutbook-asus-rog-strix-g15",
+    "MODEL_ID": 8,
+    "BRAND_ID": 3,
+    "AT_ANNOUNCED": "2020-06-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 23,
+    "NAME": "Ноутбук ASUS ROG Zephyrus G14",
+    "CODE": "noutbook-asus-rog-zephyrus-g14",
+    "MODEL_ID": 8,
+    "BRAND_ID": 3,
+    "AT_ANNOUNCED": "2020-03-01",
+    "PRICE": 99999
+  },
+  {
+    "ID": 24,
+    "NAME": "Ноутбук ASUS ROG Zephyrus S17",
+    "CODE": "noutbook-asus-rog-zephyrus-s17",
+    "MODEL_ID": 8,
+    "BRAND_ID": 3,
+    "AT_ANNOUNCED": "2021-05-01",
+    "PRICE": 129999
+  },
+  {
+    "ID": 25,
+    "NAME": "Ноутбук Dell XPS 13",
+    "CODE": "noutbook-dell-xps-13",
+    "MODEL_ID": 9,
+    "BRAND_ID": 4,
+    "AT_ANNOUNCED": "2020-01-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 26,
+    "NAME": "Ноутбук Dell XPS 15",
+    "CODE": "noutbook-dell-xps-15",
+    "MODEL_ID": 9,
+    "BRAND_ID": 4,
+    "AT_ANNOUNCED": "2021-02-01",
+    "PRICE": 129999
+  },
+  {
+    "ID": 27,
+    "NAME": "Ноутбук Dell XPS 17",
+    "CODE": "noutbook-dell-xps-17",
+    "MODEL_ID": 9,
+    "BRAND_ID": 4,
+    "AT_ANNOUNCED": "2020-09-01",
+    "PRICE": 169999
+  },
+  {
+    "ID": 28,
+    "NAME": "Ноутбук HP Pavilion 15",
+    "CODE": "noutbook-hp-pavilion-15",
+    "MODEL_ID": 10,
+    "BRAND_ID": 5,
+    "AT_ANNOUNCED": "2020-02-01",
+    "PRICE": 54999
+  },
+  {
+    "ID": 29,
+    "NAME": "Ноутбук HP Pavilion 14",
+    "CODE": "noutbook-hp-pavilion-14",
+    "MODEL_ID": 10,
+    "BRAND_ID": 5,
+    "AT_ANNOUNCED": "2021-05-01",
+    "PRICE": 62999
+  },
+  {
+    "ID": 30,
+    "NAME": "Ноутбук HP Pavilion x360",
+    "CODE": "noutbook-hp-pavilion-x360",
+    "MODEL_ID": 10,
+    "BRAND_ID": 5,
+    "AT_ANNOUNCED": "2020-09-01",
+    "PRICE": 74999
+  },
+  {
+    "ID": 31,
+    "NAME": "Ноутбук Lenovo Yoga C740",
+    "CODE": "noutbook-lenovo-yoga-c740",
+    "MODEL_ID": 12,
+    "BRAND_ID": 6,
+    "AT_ANNOUNCED": "2019-10-01",
+    "PRICE": 84999
+  },
+  {
+    "ID": 32,
+    "NAME": "Ноутбук Lenovo Yoga C940",
+    "CODE": "noutbook-lenovo-yoga-c940",
+    "MODEL_ID": 12,
+    "BRAND_ID": 6,
+    "AT_ANNOUNCED": "2019-09-01",
+    "PRICE": 99999
+  },
+  {
+    "ID": 33,
+    "NAME": "Ноутбук Lenovo Yoga Slim 7",
+    "CODE": "noutbook-lenovo-yoga-slim-7",
+    "MODEL_ID": 12,
+    "BRAND_ID": 6,
+    "AT_ANNOUNCED": "2020-03-01",
+    "PRICE": 79999
+  },
+  {
+    "ID": 34,
+    "NAME": "Ноутбук MSI Gaming GS66 Stealth",
+    "CODE": "noutbook-msi-gaming-gs66-stealth",
+    "MODEL_ID": 13,
+    "BRAND_ID": 7,
+    "AT_ANNOUNCED": "2020-04-01",
+    "PRICE": 149999
+  },
+  {
+    "ID": 35,
+    "NAME": "Ноутбук MSI Gaming GE66 Raider",
+    "CODE": "noutbook-msi-gaming-ge66-raider",
+    "MODEL_ID": 13,
+    "BRAND_ID": 7,
+    "AT_ANNOUNCED": "2020-03-01",
+    "PRICE": 159999
+  },
+  {
+    "ID": 36,
+    "NAME": "Ноутбук MSI Gaming GP65 Leopard",
+    "CODE": "noutbook-msi-gaming-gp65-leopard",
+    "MODEL_ID": 13,
+    "BRAND_ID": 7,
+    "AT_ANNOUNCED": "2020-02-01",
+    "PRICE": 129999
+  },
+  {
+    "ID": 37,
+    "NAME": "Ноутбук Samsung Galaxy Book S",
+    "CODE": "noutbook-samsung-galaxy-book-s",
+    "MODEL_ID": 14,
+    "BRAND_ID": 8,
+    "AT_ANNOUNCED": "2020-05-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 38,
+    "NAME": "Ноутбук Samsung Galaxy Book Flex",
+    "CODE": "noutbook-samsung-galaxy-book-flex",
+    "MODEL_ID": 14,
+    "BRAND_ID": 8,
+    "AT_ANNOUNCED": "2019-10-01",
+    "PRICE": 109999
+  },
+  {
+    "ID": 39,
+    "NAME": "Ноутбук Samsung Galaxy Book Ion",
+    "CODE": "noutbook-samsung-galaxy-book-ion",
+    "MODEL_ID": 14,
+    "BRAND_ID": 8,
+    "AT_ANNOUNCED": "2019-10-01",
+    "PRICE": 99999
+  },
+  {
+    "ID": 40,
+    "NAME": "Ноутбук Sony VAIO S13",
+    "CODE": "noutbook-sony-vaio-s13",
+    "MODEL_ID": 15,
+    "BRAND_ID": 9,
+    "AT_ANNOUNCED": "2020-03-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 41,
+    "NAME": "Ноутбук Sony VAIO Z",
+    "CODE": "noutbook-sony-vaio-z",
+    "MODEL_ID": 15,
+    "BRAND_ID": 9,
+    "AT_ANNOUNCED": "2020-02-01",
+    "PRICE": 149999
+  },
+  {
+    "ID": 42,
+    "NAME": "Ноутбук Sony VAIO Pro 13",
+    "CODE": "noutbook-sony-vaio-pro-13",
+    "MODEL_ID": 15,
+    "BRAND_ID": 9,
+    "AT_ANNOUNCED": "2019-09-01",
+    "PRICE": 99999
+  },
+  {
+    "ID": 43,
+    "NAME": "Ноутбук Toshiba Satellite L50",
+    "CODE": "noutbook-toshiba-satellite-l50",
+    "MODEL_ID": 16,
+    "BRAND_ID": 10,
+    "AT_ANNOUNCED": "2021-01-01",
+    "PRICE": 54999
+  },
+  {
+    "ID": 44,
+    "NAME": "Ноутбук Toshiba Satellite C50",
+    "CODE": "noutbook-toshiba-satellite-c50",
+    "MODEL_ID": 16,
+    "BRAND_ID": 10,
+    "AT_ANNOUNCED": "2020-08-01",
+    "PRICE": 39999
+  },
+  {
+    "ID": 45,
+    "NAME": "Ноутбук Toshiba Satellite P50",
+    "CODE": "noutbook-toshiba-satellite-p50",
+    "MODEL_ID": 16,
+    "BRAND_ID": 10,
+    "AT_ANNOUNCED": "2020-05-01",
+    "PRICE": 69999
+  },
+  {
+    "ID": 46,
+    "NAME": "Ноутбук Huawei MateBook D14",
+    "CODE": "noutbook-huawei-matebook-d14",
+    "MODEL_ID": 17,
+    "BRAND_ID": 11,
+    "AT_ANNOUNCED": "2021-03-01",
+    "PRICE": 64999
+  },
+  {
+    "ID": 47,
+    "NAME": "Ноутбук Huawei MateBook X Pro",
+    "CODE": "noutbook-huawei-matebook-x-pro",
+    "MODEL_ID": 17,
+    "BRAND_ID": 11,
+    "AT_ANNOUNCED": "2020-09-01",
+    "PRICE": 129999
+  },
+  {
+    "ID": 48,
+    "NAME": "Ноутбук Huawei MateBook 13",
+    "CODE": "noutbook-huawei-matebook-13",
+    "MODEL_ID": 17,
+    "BRAND_ID": 11,
+    "AT_ANNOUNCED": "2019-11-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 49,
+    "NAME": "Ноутбук Microsoft Surface Laptop 4",
+    "CODE": "noutbook-microsoft-surface-laptop-4",
+    "MODEL_ID": 18,
+    "BRAND_ID": 12,
+    "AT_ANNOUNCED": "2021-04-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 50,
+    "NAME": "Ноутбук Microsoft Surface Pro 7",
+    "CODE": "noutbook-microsoft-surface-pro-7",
+    "MODEL_ID": 18,
+    "BRAND_ID": 12,
+    "AT_ANNOUNCED": "2019-10-01",
+    "PRICE": 79999
+  },
+  {
+    "ID": 51,
+    "NAME": "Ноутбук Microsoft Surface Book 3",
+    "CODE": "noutbook-microsoft-surface-book-3",
+    "MODEL_ID": 18,
+    "BRAND_ID": 12,
+    "AT_ANNOUNCED": "2020-05-01",
+    "PRICE": 129999
+  },
+  {
+    "ID": 52,
+    "NAME": "Ноутбук Razer Blade 15",
+    "CODE": "noutbook-razer-blade-15",
+    "MODEL_ID": 19,
+    "BRAND_ID": 13,
+    "AT_ANNOUNCED": "2021-03-01",
+    "PRICE": 149999
+  },
+  {
+    "ID": 53,
+    "NAME": "Ноутбук Razer Blade Pro 17",
+    "CODE": "noutbook-razer-blade-pro-17",
+    "MODEL_ID": 19,
+    "BRAND_ID": 13,
+    "AT_ANNOUNCED": "2020-10-01",
+    "PRICE": 199999
+  },
+  {
+    "ID": 54,
+    "NAME": "Ноутбук Razer Blade Stealth 13",
+    "CODE": "noutbook-razer-blade-stealth-13",
+    "MODEL_ID": 19,
+    "BRAND_ID": 13,
+    "AT_ANNOUNCED": "2019-12-01",
+    "PRICE": 119999
+  },
+  {
+    "ID": 55,
+    "NAME": "Ноутбук Lenovo ThinkPad X1 Carbon",
+    "CODE": "noutbook-lenovo-thinkpad-x1-carbon",
+    "MODEL_ID": 11,
+    "BRAND_ID": 6,
+    "AT_ANNOUNCED": "2020-01-01",
+    "PRICE": 129999
+  },
+  {
+    "ID": 56,
+    "NAME": "Ноутбук Lenovo ThinkPad T14s",
+    "CODE": "noutbook-lenovo-thinkpad-t14s",
+    "MODEL_ID": 11,
+    "BRAND_ID": 6,
+    "AT_ANNOUNCED": "2021-02-01",
+    "PRICE": 89999
+  },
+  {
+    "ID": 57,
+    "NAME": "Ноутбук Lenovo ThinkPad X1 Yoga",
+    "CODE": "noutbook-lenovo-thinkpad-x1-yoga",
+    "MODEL_ID": 11,
+    "BRAND_ID": 6,
+    "AT_ANNOUNCED": "2019-09-01",
+    "PRICE": 149999
+  }
+]

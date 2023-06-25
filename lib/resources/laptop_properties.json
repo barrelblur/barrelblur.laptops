@@ -1,1 +1,1878 @@
-[]
+[
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 1,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 2,
+    "PROPERTY_ID": 27
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 3,
+    "PROPERTY_ID": 22
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 19
+  },
+  {
+    "LAPTOP_ID": 4,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 5,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 6,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 7,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 8,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 9,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 10,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 11,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 26
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 27
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 30
+  },
+  {
+    "LAPTOP_ID": 12,
+    "PROPERTY_ID": 31
+  },
+  {
+    "LAPTOP_ID": 13,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 13,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 13,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 13,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 13,
+    "PROPERTY_ID": 28
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 28
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 14,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 15,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 15,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 15,
+    "PROPERTY_ID": 29
+  },
+  {
+    "LAPTOP_ID": 15,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 15,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 16,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 16,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 16,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 16,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 16,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 16,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 17,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 26
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 31
+  },
+  {
+    "LAPTOP_ID": 18,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 19,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 19,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 19,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 19,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 19,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 19,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 20,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 21,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 22
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 26
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 31
+  },
+  {
+    "LAPTOP_ID": 22,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 26
+  },
+  {
+    "LAPTOP_ID": 23,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 24,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 25,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 26,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 27,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 28,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 29,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 30,
+    "PROPERTY_ID": 32
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 31,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 19
+  },
+  {
+    "LAPTOP_ID": 32,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 19
+  },
+  {
+    "LAPTOP_ID": 33,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 34,
+    "PROPERTY_ID": 22
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 35,
+    "PROPERTY_ID": 22
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 36,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 19
+  },
+  {
+    "LAPTOP_ID": 37,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 19
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 38,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 19
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 20
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 39,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 22
+  },
+  {
+    "LAPTOP_ID": 40,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 26
+  },
+  {
+    "LAPTOP_ID": 41,
+    "PROPERTY_ID": 27
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 22
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 42,
+    "PROPERTY_ID": 27
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 43,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 44,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 44,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 44,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 44,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 44,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 44,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 45,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 46,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 47,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 5
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 7
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 48,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 15
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 49,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 50,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 51,
+    "PROPERTY_ID": 21
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 52,
+    "PROPERTY_ID": 16
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 3
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 6
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 8
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 10
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 53,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 17
+  },
+  {
+    "LAPTOP_ID": 54,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 13
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 55,
+    "PROPERTY_ID": 25
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 12
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 18
+  },
+  {
+    "LAPTOP_ID": 56,
+    "PROPERTY_ID": 24
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 1
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 2
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 4
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 9
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 11
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 14
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 23
+  },
+  {
+    "LAPTOP_ID": 57,
+    "PROPERTY_ID": 24
+  }
+]

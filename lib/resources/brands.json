@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "ID": 1,
+    "NAME": "Acer",
+    "CODE": "acer"
+  },
+  {
+    "ID": 2,
+    "NAME": "Apple",
+    "CODE": "apple"
+  },
+  {
+    "ID": 3,
+    "NAME": "ASUS",
+    "CODE": "asus"
+  },
+  {
+    "ID": 4,
+    "NAME": "Dell",
+    "CODE": "dell"
+  },
+  {
+    "ID": 5,
+    "NAME": "HP",
+    "CODE": "hp"
+  },
+  {
+    "ID": 6,
+    "NAME": "Lenovo",
+    "CODE": "lenovo"
+  },
+  {
+    "ID": 7,
+    "NAME": "MSI",
+    "CODE": "msi"
+  },
+  {
+    "ID": 8,
+    "NAME": "Samsung",
+    "CODE": "samsung"
+  },
+  {
+    "ID": 9,
+    "NAME": "Sony",
+    "CODE": "sony"
+  },
+  {
+    "ID": 10,
+    "NAME": "Toshiba",
+    "CODE": "toshiba"
+  },
+  {
+    "ID": 11,
+    "NAME": "Huawei",
+    "CODE": "huawei"
+  },
+  {
+    "ID": 12,
+    "NAME": "Microsoft",
+    "CODE": "microsoft"
+  },
+  {
+    "ID": 13,
+    "NAME": "Razer",
+    "CODE": "razer"
+  }
+]

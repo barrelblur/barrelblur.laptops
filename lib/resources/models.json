@@ -1,1 +1,116 @@
-[]
+[
+  {
+    "ID": 1,
+    "NAME": "Acer Aspire",
+    "CODE": "acer_aspire",
+    "BRAND_ID": 1
+  },
+  {
+    "ID": 2,
+    "NAME": "Acer Extensa",
+    "CODE": "acer_extensa",
+    "BRAND_ID": 1
+  },
+  {
+    "ID": 3,
+    "NAME": "Acer Nitro",
+    "CODE": "acer_nitro",
+    "BRAND_ID": 1
+  },
+  {
+    "ID": 4,
+    "NAME": "Macbook Air",
+    "CODE": "macbook_air",
+    "BRAND_ID": 2
+  },
+  {
+    "ID": 5,
+    "NAME": "Macbook Pro",
+    "CODE": "macbook_pro",
+    "BRAND_ID": 2
+  },
+  {
+    "ID": 6,
+    "NAME": "ASUS VivoBook",
+    "CODE": "asus_vivobook",
+    "BRAND_ID": 3
+  },
+  {
+    "ID": 7,
+    "NAME": "Dell Inspiron",
+    "CODE": "dell_inspiron",
+    "BRAND_ID": 4
+  },
+  {
+    "ID": 8,
+    "NAME": "ASUS ROG",
+    "CODE": "asus_rog",
+    "BRAND_ID": 3
+  },
+  {
+    "ID": 9,
+    "NAME": "Dell XPS",
+    "CODE": "dell_xps",
+    "BRAND_ID": 4
+  },
+  {
+    "ID": 10,
+    "NAME": "HP Pavilion",
+    "CODE": "hp_pavilion",
+    "BRAND_ID": 5
+  },
+  {
+    "ID": 11,
+    "NAME": "Lenovo ThinkPad",
+    "CODE": "lenovo_thinkpad",
+    "BRAND_ID": 6
+  },
+  {
+    "ID": 12,
+    "NAME": "Lenovo Yoga",
+    "CODE": "lenovo_yoga",
+    "BRAND_ID": 6
+  },
+  {
+    "ID": 13,
+    "NAME": "MSI Gaming",
+    "CODE": "msi_gaming",
+    "BRAND_ID": 7
+  },
+  {
+    "ID": 14,
+    "NAME": "Samsung Galaxy Book",
+    "CODE": "samsung_galaxy_book",
+    "BRAND_ID": 8
+  },
+  {
+    "ID": 15,
+    "NAME": "Sony VAIO",
+    "CODE": "sony_vaio",
+    "BRAND_ID": 9
+  },
+  {
+    "ID": 16,
+    "NAME": "Toshiba Satellite",
+    "CODE": "toshiba_satellite",
+    "BRAND_ID": 10
+  },
+  {
+    "ID": 17,
+    "NAME": "Huawei MateBook",
+    "CODE": "huawei_matebook",
+    "BRAND_ID": 11
+  },
+  {
+    "ID": 18,
+    "NAME": "Microsoft Surface",
+    "CODE": "microsoft_surface",
+    "BRAND_ID": 12
+  },
+  {
+    "ID": 19,
+    "NAME": "Razer Blade",
+    "CODE": "razer_blade",
+    "BRAND_ID": 13
+  }
+]
