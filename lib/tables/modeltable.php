@@ -3,6 +3,7 @@
 namespace Barrelblur\Laptops\Tables;
 
 use Barrelblur\Laptops\Contracts\Seedable;
+use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Fields\IntegerField;
 use Bitrix\Main\ORM\Fields\StringField;
 use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
