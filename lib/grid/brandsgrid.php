@@ -36,13 +36,13 @@ class BrandsGrid extends AbstractGrid
             'order'  => $sortingFields['sort'],
         ]);
 
-        return array_map(function ($brandFields) use ($url) {
-            $brandFields['NAME'] = $url->toHref([
-                $brandFields['NAME'],
-                $url->getBrandUri($brandFields['CODE'])
+        return array_map(function ($fields) use ($url) {
+            $fields['NAME'] = $url->toHref([
+                $fields['NAME'],
+                $url->getBrandUri($fields['CODE'])
             ]);
 
-            return $brandFields;
+            return $fields;
         }, $brandIterator->fetchAll());
     }
 

@@ -50,6 +50,15 @@ class URL
         return $this->sefFolder . str_replace('#BRAND_CODE#', $brandCode, self::URL_TEMPLATES['models']);
     }
 
+    public function getModelUri(string $brandCode, string $modelCode): string
+    {
+        return $this->sefFolder . str_replace(
+                ['#BRAND_CODE#', '#MODEL_CODE#'],
+                [$brandCode, $modelCode],
+                self::URL_TEMPLATES['laptops']
+            );
+    }
+
     public function toHref(array $parts): string
     {
         [$title, $link] = $parts;

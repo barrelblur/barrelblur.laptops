@@ -2,6 +2,7 @@
 
 namespace Barrelblur\Laptops\Tables;
 
+use Bitrix\Main\Entity\ReferenceField;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Fields\IntegerField;
 use Bitrix\Main\ORM\Fields\StringField;
@@ -31,6 +32,11 @@ class ModelTable extends AbstractDataManager
             ]),
             new StringField('NAME', ['required' => true]),
             new IntegerField('BRAND_ID', ['required' => true]),
+            new ReferenceField(
+                'BRAND',
+                'Barrelblur\Laptops\Tables\BrandTable',
+                array('=this.BRAND_ID' => 'ref.ID')
+            )
         ];
     }
 }
