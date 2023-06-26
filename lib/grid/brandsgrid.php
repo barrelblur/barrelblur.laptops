@@ -28,13 +28,22 @@ class BrandsGrid extends AbstractGrid
 
     public function fetchElements(array $filterFields, array $sortingFields, PageNavigation $navigation): array
     {
+        $url = $this->url;
+
         $brandIterator = BrandTable::getList([
             'offset' => $navigation->getOffset(),
             'limit'  => $navigation->getLimit(),
             'order'  => $sortingFields['sort'],
         ]);
 
-        return $brandIterator->fetchAll();
+        return array_map(function ($brandFields) use ($url) {
+            $brandFields['NAME'] = $url->toHref([
+                $brandFields['NAME'],
+                $url->getBrandUri($brandFields['CODE'])
+            ]);
+
+            return $brandFields;
+        }, $brandIterator->fetchAll());
     }
 
     public function getCountElement(array $filterFields): int

@@ -15,7 +15,7 @@ abstract class AbstractGrid
 
     private Options $gridOptions;
     private PageNavigation $navigation;
-    private URL $url;
+    public URL $url;
 
 
     public function __construct(string $entity, array $filterFields)

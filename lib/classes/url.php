@@ -44,4 +44,16 @@ class URL
     {
         $this->sefFolder = $sefFolder;
     }
+
+    public function getBrandUri(string $brandCode): string
+    {
+        return $this->sefFolder . str_replace('#BRAND_CODE#', $brandCode, self::URL_TEMPLATES['models']);
+    }
+
+    public function toHref(array $parts): string
+    {
+        [$title, $link] = $parts;
+
+        return '<a href="' . $link . '">' . $title . '</a>';
+    }
 }
