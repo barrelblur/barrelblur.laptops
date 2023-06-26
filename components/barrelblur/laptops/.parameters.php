@@ -2,13 +2,14 @@
 
 use Bitrix\Main\Localization\Loc;
 
-$arComponentParameters = array(
-    'PARAMETERS' => array(
-        'SEF_FOLDER' => array(
+$arComponentParameters = [
+    'PARAMETERS' => [
+        'SEF_MODE'   => [],
+        'SEF_FOLDER' => [
             'PARENT'  => 'BASE',
-            'NAME'    => Loc::getMessage('SEF_URL'),
+            'NAME'    => Loc::getMessage('SEF_FOLDER'),
             'TYPE'    => 'STRING',
             'DEFAULT' => '',
-        ),
-    ),
-);
+        ],
+    ],
+];

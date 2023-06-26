@@ -7,6 +7,9 @@
 $APPLICATION->IncludeComponent(
     'barrelblur:laptops.list',
     '',
-    [],
+    [
+        'ENTITY'     => $arResult['ENTITY'],
+        'SEF_FOLDER' => $arParams['SEF_FOLDER']
+    ],
     false
 );

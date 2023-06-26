@@ -22,9 +22,21 @@ class LaptopsComponent extends CBitrixComponent
 
     private function getResult(): void
     {
-        [$this->template, $variables] = URL::parsePath($this->arParams['SEF_FOLDER']);
+        [$this->template, $variables] = URL::parsePath($this->arParams['SEF_FOLDER'] ?? '');
 
         $this->arResult['VARIABLES'] = $variables;
         $this->arResult['ENTITY'] = $this->template;
+        $this->arResult['FILTER'] = $this->getFilter($this->template, $variables);
+    }
+
+    public function getFilter(string $entity, array $variables): array
+    {
+        $filterFields = [];
+
+        if($entity == 'models') $filterFields['BRAND_CODE'] = $variables['BRAND_CODE'];
+        if($entity == 'laptops') $filterFields['MODEL_CODE'] = $variables['MODEL_CODE'];
+        if($entity == 'detail') $filterFields['CODE'] = $variables['LAPTOP_CODE'];
+
+        return $filterFields;
     }
 }
