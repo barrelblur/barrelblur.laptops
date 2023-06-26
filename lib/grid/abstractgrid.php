@@ -2,6 +2,7 @@
 
 namespace Barrelblur\Laptops\Grid;
 
+use Barrelblur\Laptops\Classes\URL;
 use Bitrix\Main\Grid\Options;
 use Bitrix\Main\UI\PageNavigation;
 
@@ -10,19 +11,19 @@ abstract class AbstractGrid
     const SORTING = ['sort' => ['ID' => 'DESC'], 'vars' => ['by' => 'by', 'order' => 'order']];
 
     private string $entity;
-    private string $sefFolder;
     private array $filterFields;
 
     private Options $gridOptions;
-
     private PageNavigation $navigation;
+    private URL $url;
 
 
-    public function __construct(string $entity, string $sefFolder, array $filterFields)
+    public function __construct(string $entity, array $filterFields)
     {
         $this->entity = $entity;
-        $this->sefFolder = $sefFolder;
         $this->filterFields = $filterFields;
+
+        $this->url = URL::getInstance();
 
         $this->prepare();
     }

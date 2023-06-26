@@ -2,6 +2,7 @@
 
 use Bitrix\Main\Loader;
 use Barrelblur\Laptops\Grid\GridFactory;
+use Barrelblur\Laptops\Classes\URL;
 
 class LaptopsListComponent extends CBitrixComponent
 {
@@ -9,11 +10,12 @@ class LaptopsListComponent extends CBitrixComponent
     {
         parent::__construct($component);
 
-        Loader::requireModule('barrelblur.laptops');
-    }
+        Loader::requireModule('barrelblur.laptops');}
 
     public function executeComponent()
     {
+        $this->configureSingletons();
+
         $this->getResult();
         $this->includeComponentTemplate();
     }
@@ -22,7 +24,6 @@ class LaptopsListComponent extends CBitrixComponent
     {
         $grid = GridFactory::createEntity(
             $this->arParams['ENTITY'],
-            $this->arParams['SEF_FOLDER'],
             $this->arParams['FILTER'] ?? []
         );
 
@@ -32,5 +33,10 @@ class LaptopsListComponent extends CBitrixComponent
         $this->arResult['COUNT'] = $grid->getCount();
         $this->arResult['COLUMNS'] = $grid->getColumns();
         $this->arResult['NAVIGATION'] = $grid->getNavigation();
+    }
+
+    public function configureSingletons(): void
+    {
+        URL::getInstance()->setDefaultSefFolder($this->arParams['SEF_FOLDER']);
     }
 }

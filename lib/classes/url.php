@@ -4,14 +4,28 @@ namespace Barrelblur\Laptops\Classes;
 
 class URL
 {
-    public const URL_TEMPLATES = [
+    private static $instance;
+
+    private string $sefFolder;
+
+    private const URL_TEMPLATES = [
         'brands'  => 'index.php',
         'models'  => '#BRAND_CODE#/',
         'detail'  => 'detail/#LAPTOP_CODE#/',
         'laptops' => '#BRAND_CODE#/#MODEL_CODE#/',
     ];
 
-    public static function parsePath(string $sefFolder): array
+    private function __construct() { }
+
+    public static function getInstance(): self
+    {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+        return self::$instance;
+    }
+
+    public function parsePath(string $sefFolder): array
     {
         $variables = [];
 
@@ -21,8 +35,13 @@ class URL
             $variables
         );
 
-        if(!$template) $template = 'brands';
+        if (!$template) $template = 'brands';
 
         return [$template, $variables];
+    }
+
+    public function setDefaultSefFolder(string $sefFolder): void
+    {
+        $this->sefFolder = $sefFolder;
     }
 }

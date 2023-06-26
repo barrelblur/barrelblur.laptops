@@ -6,12 +6,15 @@ use Barrelblur\Laptops\Classes\URL;
 class LaptopsComponent extends CBitrixComponent
 {
     public string $template;
+    private URL $url;
 
     public function __construct($component = null)
     {
         parent::__construct($component);
 
         Loader::requireModule('barrelblur.laptops');
+
+        $this->url = URL::getInstance();
     }
 
     public function executeComponent(): void
@@ -22,7 +25,7 @@ class LaptopsComponent extends CBitrixComponent
 
     private function getResult(): void
     {
-        [$this->template, $variables] = URL::parsePath($this->arParams['SEF_FOLDER'] ?? '');
+        [$this->template, $variables] = $this->url->parsePath($this->arParams['SEF_FOLDER'] ?? '');
 
         $this->arResult['VARIABLES'] = $variables;
         $this->arResult['ENTITY'] = $this->template;

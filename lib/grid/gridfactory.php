@@ -12,7 +12,7 @@ class GridFactory
         'laptops' => LaptopsGrid::class,
     ];
 
-    public static function createEntity(string $entity, string $sefFolder, array $filterFields): AbstractGrid
+    public static function createEntity(string $entity, array $filterFields): AbstractGrid
     {
         if (!isset(self::ENTITIES[$entity])) {
             throw new ObjectNotFoundException('Entity "' . $entity . '" not found');
@@ -20,6 +20,6 @@ class GridFactory
 
         $class = self::ENTITIES[$entity];
 
-        return new $class($entity, $sefFolder, $filterFields);
+        return new $class($entity, $filterFields);
     }
 }
