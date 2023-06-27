@@ -2,6 +2,7 @@
 
 namespace Barrelblur\Laptops\Tables;
 
+use Bitrix\Main\Entity\ReferenceField;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Event;
 use Bitrix\Main\ORM\EventResult;
@@ -38,6 +39,16 @@ class LaptopTable extends AbstractDataManager
             new IntegerField('BRAND_ID', ['required' => true]),
             new DateField('AT_ANNOUNCED', ['required' => true]),
             new IntegerField('PRICE', ['required' => true]),
+            new ReferenceField(
+                'BRAND',
+                'Barrelblur\Laptops\Tables\BrandTable',
+                array('=this.BRAND_ID' => 'ref.ID')
+            ),
+            new ReferenceField(
+                'MODEL',
+                'Barrelblur\Laptops\Tables\ModelTable',
+                array('=this.MODEL_ID' => 'ref.ID')
+            )
         ];
     }
 

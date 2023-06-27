@@ -36,7 +36,7 @@ class ModelsGrid extends AbstractGrid
     {
         $url = $this->url;
 
-        $brandIterator = ModelTable::getList([
+        $modelIterator = ModelTable::getList([
             'select' => [
                 'ID',
                 'NAME',
@@ -66,17 +66,17 @@ class ModelsGrid extends AbstractGrid
                 'NAME'  => $nameUri,
                 'BRAND' => $brandUri,
             ];
-        }, $brandIterator->fetchAll());
+        }, $modelIterator->fetchAll());
     }
 
     public function getCountElement(array $filterFields): int
     {
-        $brandIterator = ModelTable::getList([
+        $modelIterator = ModelTable::getList([
             'select'      => ['ID'],
             'count_total' => true,
             'filter'      => $filterFields
         ]);
 
-        return $brandIterator->getCount() ?? 0;
+        return $modelIterator->getCount() ?? 0;
     }
 }

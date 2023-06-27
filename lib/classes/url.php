@@ -59,6 +59,11 @@ class URL
             );
     }
 
+    public function getLaptopUri(string $laptopCode): string
+    {
+        return $this->sefFolder . str_replace('#LAPTOP_CODE#', $laptopCode, self::URL_TEMPLATES['detail']);
+    }
+
     public function toHref(array $parts): string
     {
         [$title, $link] = $parts;
