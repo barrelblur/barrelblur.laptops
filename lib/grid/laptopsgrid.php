@@ -2,12 +2,21 @@
 
 namespace Barrelblur\Laptops\Grid;
 
+use Barrelblur\Laptops\Contracts\Captionable;
 use Barrelblur\Laptops\Tables\LaptopTable;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\UI\PageNavigation;
 
-class LaptopsGrid extends AbstractGrid
+class LaptopsGrid extends AbstractGrid implements Captionable
 {
+    /**
+     * @return string
+     */
+    public static function getCaption(): string
+    {
+        return Loc::getMessage('LAPTOP');
+    }
+
     /**
      * @return array[]
      */

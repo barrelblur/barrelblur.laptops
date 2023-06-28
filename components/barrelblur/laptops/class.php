@@ -2,6 +2,7 @@
 
 use Bitrix\Main\Loader;
 use Barrelblur\Laptops\Classes\URL;
+use Barrelblur\Laptops\Grid\GridFactory;
 
 class LaptopsComponent extends CBitrixComponent
 {
@@ -29,7 +30,13 @@ class LaptopsComponent extends CBitrixComponent
      */
     public function executeComponent(): void
     {
-        $this->getResult();
+        if ($_GET['entity'] && GridFactory::has($_GET['entity'])) {
+            $this->template = $_GET['entity'];
+            $this->arResult['ENTITY'] = $this->template;
+        } else {
+            $this->getResult();
+        }
+
         $this->includeComponentTemplate($this->template);
     }
 

@@ -5,7 +5,7 @@ use Bitrix\Main\Localization\Loc;
 $arComponentDescription = array(
     'NAME'        => Loc::getMessage('NAME'),
     'DESCRIPTION' => Loc::getMessage('DESCRIPTION'),
-    'SORT'        => 30,
+    'SORT'        => 40,
     'PATH'        => array(
         'ID'   => 'barrelblur',
         'NAME' => Loc::getMessage('PATH'),

@@ -2,12 +2,21 @@
 
 namespace Barrelblur\Laptops\Grid;
 
+use Barrelblur\Laptops\Contracts\Captionable;
 use Barrelblur\Laptops\Tables\ModelTable;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\UI\PageNavigation;
 
-class ModelsGrid extends AbstractGrid
+class ModelsGrid extends AbstractGrid implements Captionable
 {
+    /**
+     * @return string
+     */
+    public static function getCaption(): string
+    {
+        return Loc::getMessage('MODEL');
+    }
+
     /**
      * @return array[]
      */

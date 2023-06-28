@@ -22,6 +22,7 @@ class LaptopsListComponent extends CBitrixComponent
 
     /**
      * @return void
+     * @throws \Bitrix\Main\ObjectNotFoundException
      */
     public function executeComponent(): void
     {

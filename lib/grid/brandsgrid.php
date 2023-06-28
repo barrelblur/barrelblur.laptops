@@ -2,12 +2,21 @@
 
 namespace Barrelblur\Laptops\Grid;
 
+use Barrelblur\Laptops\Contracts\Captionable;
 use Barrelblur\Laptops\Tables\BrandTable;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\UI\PageNavigation;
 
-class BrandsGrid extends AbstractGrid
+class BrandsGrid extends AbstractGrid implements Captionable
 {
+    /**
+     * @return string
+     */
+    public static function getCaption(): string
+    {
+        return Loc::getMessage('BRAND');
+    }
+
     /**
      * @return array[]
      */

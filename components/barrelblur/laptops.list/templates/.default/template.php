@@ -5,6 +5,15 @@
 /** @global CMain $APPLICATION */
 
 $APPLICATION->IncludeComponent(
+    'barrelblur:entities',
+    '',
+    [
+        'BASE_URL' => $arParams['SEF_FOLDER'],
+        'ENTITY'   => $arResult['ENTITY'],
+    ]
+);
+
+$APPLICATION->IncludeComponent(
     'bitrix:main.ui.grid',
     '',
     [
