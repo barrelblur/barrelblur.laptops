@@ -51,15 +51,18 @@ class LaptopsDetailComponent extends CBitrixComponent
             /** @var Collection $collection */
             $laptopObject = $laptopIterator->fetchObject();
 
-            $resultFields = $this->getScalarFields($laptopObject);
+            if($laptopObject)
+            {
+                $resultFields = $this->getScalarFields($laptopObject);
 
-            $brandObject = $laptopObject->getBrand();
-            $modelObject = $laptopObject->getModel();
-            $propertiesObject = $laptopObject->getProperties();
+                $brandObject = $laptopObject->getBrand();
+                $modelObject = $laptopObject->getModel();
+                $propertiesObject = $laptopObject->getProperties();
 
-            $resultFields['BRAND'] = $this->getBrandFields($brandObject);
-            $resultFields['MODEL'] = $this->getModelFields($modelObject, $brandObject);
-            $resultFields['PROPERTIES'] = $this->getPropertiesList($propertiesObject);
+                $resultFields['BRAND'] = $this->getBrandFields($brandObject);
+                $resultFields['MODEL'] = $this->getModelFields($modelObject, $brandObject);
+                $resultFields['PROPERTIES'] = $this->getPropertiesList($propertiesObject);
+            }
         }
 
         $this->arResult['RESULT'] = $resultFields;
