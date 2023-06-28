@@ -3,12 +3,12 @@
 use Bitrix\Main\Localization\Loc;
 
 $arComponentDescription = array(
-    'NAME'        => Loc::getMessage('NAME'),
-    'DESCRIPTION' => Loc::getMessage('DESCRIPTION'),
+    'NAME'        => GetMessage('NAME'),
+    'DESCRIPTION' => GetMessage('DESCRIPTION'),
     'SORT'        => 20,
     'PATH'        => array(
         'ID'   => 'barrelblur',
-        'NAME' => Loc::getMessage('PATH'),
+        'NAME' => GetMessage('PATH'),
         'SORT' => 10,
     )
 );
