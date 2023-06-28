@@ -2,6 +2,8 @@
 
 namespace Barrelblur\Laptops\Tables;
 
+use Barrelblur\Laptops\Contracts\Resourceable;
+use Bitrix\Main\Entity\DataManager;
 use Bitrix\Main\Entity\ReferenceField;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Fields\IntegerField;
@@ -9,10 +11,8 @@ use Bitrix\Main\ORM\Fields\StringField;
 use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 
 
-class ModelTable extends AbstractDataManager
+class ModelTable extends DataManager implements Resourceable
 {
-    public static string $resource = 'models.json';
-
     public static function getTableName(): string
     {
         return 'barrelblur_laptops_models';
@@ -38,5 +38,10 @@ class ModelTable extends AbstractDataManager
                 array('=this.BRAND_ID' => 'ref.ID')
             )
         ];
+    }
+
+    public static function getResourceFilename(): string
+    {
+        return 'models.json';
     }
 }

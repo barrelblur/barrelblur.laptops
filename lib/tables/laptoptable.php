@@ -2,6 +2,8 @@
 
 namespace Barrelblur\Laptops\Tables;
 
+use Barrelblur\Laptops\Contracts\Resourceable;
+use Bitrix\Main\Entity\DataManager;
 use Bitrix\Main\Entity\ReferenceField;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Event;
@@ -14,10 +16,8 @@ use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 use Bitrix\Main\Type\Date;
 
 
-class LaptopTable extends AbstractDataManager
+class LaptopTable extends DataManager implements Resourceable
 {
-    public static string $resource = 'laptops.json';
-
     public static function getTableName(): string
     {
         return 'barrelblur_laptops_laptops';
@@ -77,5 +77,10 @@ class LaptopTable extends AbstractDataManager
         $result->modifyFields(['AT_ANNOUNCED' => new Date($fields['AT_ANNOUNCED'], 'Y-m-d')]);
 
         return $result;
+    }
+
+    public static function getResourceFilename(): string
+    {
+        return 'laptops.json';
     }
 }

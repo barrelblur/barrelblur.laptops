@@ -2,20 +2,22 @@
 
 namespace Barrelblur\Laptops\Classes;
 
-use Barrelblur\Laptops\Tables\AbstractDataManager;
+use Barrelblur\Laptops\Contracts\Resourceable;
 use Barrelblur\Laptops\Tables\BrandTable;
 use Barrelblur\Laptops\Tables\LaptopPropertyTable;
 use Barrelblur\Laptops\Tables\LaptopTable;
 use Barrelblur\Laptops\Tables\ModelTable;
 use Barrelblur\Laptops\Tables\PropertiesTable;
 use Bitrix\Main\Application;
+use Bitrix\Main\ArgumentException;
 use Bitrix\Main\IO\FileNotFoundException;
 use Bitrix\Main\IO\FileOpenException;
+use Bitrix\Main\SystemException;
 
 class MigrationManager
 {
     /**
-     * @var AbstractDataManager[]
+     * @var Resourceable[]
      */
     public static array $models = [
         BrandTable::class,
@@ -27,8 +29,8 @@ class MigrationManager
 
     /**
      * @return void
-     * @throws \Bitrix\Main\ArgumentException
-     * @throws \Bitrix\Main\SystemException
+     * @throws ArgumentException
+     * @throws SystemException
      */
     public static function migrate(): void
     {
@@ -58,18 +60,20 @@ class MigrationManager
      * @return void
      * @throws FileNotFoundException
      * @throws FileOpenException
-     * @throws \Bitrix\Main\ArgumentException
-     * @throws \Bitrix\Main\SystemException
+     * @throws ArgumentException
+     * @throws SystemException
      * @throws \JsonException
      */
     public static function seed(): void
     {
         foreach (static::$models as $model) {
-            if (!$model::$resource) {
+            $resourceFilename = $model::getResourceFilename();
+
+            if (empty($resourceFilename)) {
                 continue;
             }
 
-            $loadedResource = static::loadResource($model::$resource);
+            $loadedResource = static::loadResource($resourceFilename);
 
             if (!empty($loadedResource)) {
                 $model::addMulti($loadedResource);

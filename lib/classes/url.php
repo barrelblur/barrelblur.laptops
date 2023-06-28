@@ -6,7 +6,7 @@ class URL
 {
     private static $instance;
 
-    private string $sefFolder;
+    private ?string $sefFolder;
 
     private const URL_TEMPLATES = [
         'brands'  => 'index.php',
@@ -53,7 +53,7 @@ class URL
      *
      * @return void
      */
-    public function setDefaultSefFolder(string $sefFolder): void
+    public function setDefaultSefFolder(?string $sefFolder): void
     {
         $this->sefFolder = $sefFolder;
     }

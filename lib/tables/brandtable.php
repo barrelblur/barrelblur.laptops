@@ -2,16 +2,16 @@
 
 namespace Barrelblur\Laptops\Tables;
 
+use Barrelblur\Laptops\Contracts\Resourceable;
+use Bitrix\Main\Entity\DataManager;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Fields\IntegerField;
 use Bitrix\Main\ORM\Fields\StringField;
 use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 
 
-class BrandTable extends AbstractDataManager
+class BrandTable extends DataManager implements Resourceable
 {
-    public static string $resource = 'brands.json';
-
     public static function getTableName(): string
     {
         return 'barrelblur_laptops_brands';
@@ -31,5 +31,10 @@ class BrandTable extends AbstractDataManager
             ]),
             new StringField('NAME', ['required' => true]),
         ];
+    }
+
+    public static function getResourceFilename(): string
+    {
+        return 'brands.json';
     }
 }
