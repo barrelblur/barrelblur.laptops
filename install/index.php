@@ -97,7 +97,7 @@ class barrelblur_laptops extends CModule
     public function copyFiles(): void
     {
         CopyDirFiles(
-            $this->modulePath . '/install/components',
+            $this->modulePath . '/components',
             $this->localPath . '/components',
             true,
             true
