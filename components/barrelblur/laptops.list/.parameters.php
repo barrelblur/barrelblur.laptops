@@ -4,7 +4,14 @@ use Bitrix\Main\Localization\Loc;
 
 $arComponentParameters = array(
     'PARAMETERS' => array(
-        'ENTITY' => array(
+        'SEF_MODE'   => [],
+        'SEF_FOLDER' => [
+            'PARENT'  => 'BASE',
+            'NAME'    => Loc::getMessage('SEF_FOLDER'),
+            'TYPE'    => 'STRING',
+            'DEFAULT' => '',
+        ],
+        'ENTITY'     => array(
             'PARENT'  => 'BASE',
             'NAME'    => GetMessage('ENTITY'),
             'TYPE'    => 'LIST',

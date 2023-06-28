@@ -7,6 +7,9 @@
 $APPLICATION->IncludeComponent(
     'barrelblur:laptops.detail',
     '',
-    [],
+    [
+        'ELEMENT_CODE' => $arResult['FILTER']['ELEMENT_CODE'],
+        'SEF_FOLDER'   => $arParams['SEF_FOLDER']
+    ],
     false
 );

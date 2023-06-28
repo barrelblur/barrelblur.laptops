@@ -38,7 +38,7 @@ class LaptopsComponent extends CBitrixComponent
 
         if($entity == 'models') $filterFields['=BRAND.CODE'] = $variables['BRAND_CODE'];
         if($entity == 'laptops') $filterFields['=MODEL.CODE'] = $variables['MODEL_CODE'];
-        if($entity == 'detail') $filterFields['CODE'] = $variables['LAPTOP_CODE'];
+        if($entity == 'detail') $filterFields['ELEMENT_CODE'] = $variables['LAPTOP_CODE'];
 
         return $filterFields;
     }

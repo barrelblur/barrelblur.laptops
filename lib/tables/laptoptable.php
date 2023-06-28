@@ -8,6 +8,7 @@ use Bitrix\Main\ORM\Event;
 use Bitrix\Main\ORM\EventResult;
 use Bitrix\Main\ORM\Fields\DateField;
 use Bitrix\Main\ORM\Fields\IntegerField;
+use Bitrix\Main\ORM\Fields\Relations\ManyToMany;
 use Bitrix\Main\ORM\Fields\StringField;
 use Bitrix\Main\ORM\Fields\Validators\UniqueValidator;
 use Bitrix\Main\Type\Date;
@@ -48,7 +49,13 @@ class LaptopTable extends AbstractDataManager
                 'MODEL',
                 'Barrelblur\Laptops\Tables\ModelTable',
                 array('=this.MODEL_ID' => 'ref.ID')
-            )
+            ),
+            (new ManyToMany('PROPERTIES', PropertiesTable::class))
+                ->configureTableName('barrelblur_laptops_laptop_properties')
+                ->configureLocalPrimary('ID', 'LAPTOP_ID')
+                ->configureLocalReference('NOTEBOOK')
+                ->configureRemotePrimary('ID', 'PROPERTY_ID')
+                ->configureRemoteReference('PROPERTY')
         ];
     }
 
