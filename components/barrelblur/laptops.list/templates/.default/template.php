@@ -4,8 +4,6 @@
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
 
-$this->addExternalCss('/bitrix/css/main/bootstrap.css');
-
 $APPLICATION->IncludeComponent(
     'bitrix:main.ui.grid',
     '',

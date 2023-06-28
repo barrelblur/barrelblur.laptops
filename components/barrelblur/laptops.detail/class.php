@@ -81,7 +81,7 @@ class LaptopsDetailComponent extends CBitrixComponent
         return number_format($value, 0, '', ' ') . ' ₽';
     }
 
-    public function getLinkFields(EntityObject $entityObject, callable $linkFormatter)
+    public function getLinkFields(EntityObject $entityObject, callable $linkFormatter): array
     {
         return [
             'NAME' => $entityObject->getName(),
@@ -108,7 +108,7 @@ class LaptopsDetailComponent extends CBitrixComponent
     public function getModelFields(EntityObject $modelObject, EntityObject $brandObject): array
     {
         return $this->getLinkFields(
-            $brandObject,
+            $modelObject,
             function (URL $url) use ($brandObject, $modelObject) {
                 return $url->getModelUri(
                     $brandObject->getCode(),
