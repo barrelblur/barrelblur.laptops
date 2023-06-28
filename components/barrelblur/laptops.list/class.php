@@ -10,7 +10,12 @@ class LaptopsListComponent extends CBitrixComponent
     {
         parent::__construct($component);
 
-        Loader::requireModule('barrelblur.laptops');}
+        try {
+            Loader::requireModule('barrelblur.laptops');
+        } catch (Exception $exception) {
+            ShowError($exception->getMessage());
+        }
+    }
 
     public function executeComponent()
     {

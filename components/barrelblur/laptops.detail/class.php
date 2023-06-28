@@ -16,7 +16,11 @@ class LaptopsDetailComponent extends CBitrixComponent
 
         $this->url = URL::getInstance();
 
-        Loader::requireModule('barrelblur.laptops');
+        try {
+            Loader::requireModule('barrelblur.laptops');
+        } catch (Exception $exception) {
+            ShowError($exception->getMessage());
+        }
     }
 
     public function executeComponent(): void
