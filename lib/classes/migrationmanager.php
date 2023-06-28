@@ -25,6 +25,11 @@ class MigrationManager
         LaptopPropertyTable::class
     ];
 
+    /**
+     * @return void
+     * @throws \Bitrix\Main\ArgumentException
+     * @throws \Bitrix\Main\SystemException
+     */
     public static function migrate(): void
     {
         foreach (static::$models as $model) {
@@ -32,6 +37,10 @@ class MigrationManager
         }
     }
 
+    /**
+     * @return void
+     * @throws \Bitrix\Main\DB\SqlQueryException
+     */
     public static function rollback(): void
     {
         $connection = Application::getConnection();
@@ -45,6 +54,14 @@ class MigrationManager
         }
     }
 
+    /**
+     * @return void
+     * @throws FileNotFoundException
+     * @throws FileOpenException
+     * @throws \Bitrix\Main\ArgumentException
+     * @throws \Bitrix\Main\SystemException
+     * @throws \JsonException
+     */
     public static function seed(): void
     {
         foreach (static::$models as $model) {
@@ -60,6 +77,14 @@ class MigrationManager
         }
     }
 
+    /**
+     * @param string $filename
+     *
+     * @return array
+     * @throws FileNotFoundException
+     * @throws FileOpenException
+     * @throws \JsonException
+     */
     public static function loadResource(string $filename): array
     {
         $path = __DIR__ . '/../resources/' . $filename;

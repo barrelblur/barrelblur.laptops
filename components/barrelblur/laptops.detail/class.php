@@ -10,6 +10,9 @@ class LaptopsDetailComponent extends CBitrixComponent
 {
     private URL $url;
 
+    /**
+     * @param $component
+     */
     public function __construct($component = null)
     {
         parent::__construct($component);
@@ -23,6 +26,9 @@ class LaptopsDetailComponent extends CBitrixComponent
         }
     }
 
+    /**
+     * @return void
+     */
     public function executeComponent(): void
     {
         $this->configureSingletons();
@@ -31,6 +37,12 @@ class LaptopsDetailComponent extends CBitrixComponent
         $this->includeComponentTemplate();
     }
 
+    /**
+     * @return void
+     * @throws \Bitrix\Main\ArgumentException
+     * @throws \Bitrix\Main\ObjectPropertyException
+     * @throws \Bitrix\Main\SystemException
+     */
     private function getResult(): void
     {
         $resultFields = [];
@@ -72,7 +84,13 @@ class LaptopsDetailComponent extends CBitrixComponent
         $this->arResult['RESULT'] = $resultFields;
     }
 
-    public function getScalarFields(EntityObject $entityObject)
+    /**
+     * @param EntityObject $entityObject
+     *
+     * @return array
+     * @throws \Bitrix\Main\SystemException
+     */
+    public function getScalarFields(EntityObject $entityObject): array
     {
         return [
             'ID'           => $entityObject->getId(),
@@ -83,11 +101,22 @@ class LaptopsDetailComponent extends CBitrixComponent
         ];
     }
 
+    /**
+     * @param int $value
+     *
+     * @return string
+     */
     public function formatPrice(int $value): string
     {
         return number_format($value, 0, '', ' ') . ' ₽';
     }
 
+    /**
+     * @param EntityObject $entityObject
+     * @param callable     $linkFormatter
+     *
+     * @return array
+     */
     public function getLinkFields(EntityObject $entityObject, callable $linkFormatter): array
     {
         return [
@@ -97,11 +126,19 @@ class LaptopsDetailComponent extends CBitrixComponent
         ];
     }
 
+    /**
+     * @return void
+     */
     public function configureSingletons(): void
     {
         URL::getInstance()->setDefaultSefFolder($this->arParams['SEF_FOLDER']);
     }
 
+    /**
+     * @param EntityObject $brandObject
+     *
+     * @return array
+     */
     public function getBrandFields(EntityObject $brandObject): array
     {
         return $this->getLinkFields(
@@ -112,6 +149,12 @@ class LaptopsDetailComponent extends CBitrixComponent
         );
     }
 
+    /**
+     * @param EntityObject $modelObject
+     * @param EntityObject $brandObject
+     *
+     * @return array
+     */
     public function getModelFields(EntityObject $modelObject, EntityObject $brandObject): array
     {
         return $this->getLinkFields(
@@ -125,6 +168,12 @@ class LaptopsDetailComponent extends CBitrixComponent
         );
     }
 
+    /**
+     * @param ArrayAccess $propertyObject
+     *
+     * @return array
+     * @throws \Bitrix\Main\SystemException
+     */
     public function getPropertiesList(ArrayAccess $propertyObject): array
     {
         $propertiesList = [];

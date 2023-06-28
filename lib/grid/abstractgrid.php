@@ -17,7 +17,10 @@ abstract class AbstractGrid
     private PageNavigation $navigation;
     public URL $url;
 
-
+    /**
+     * @param string $entity
+     * @param array  $filterFields
+     */
     public function __construct(string $entity, array $filterFields)
     {
         $this->entity = $entity;
@@ -28,6 +31,9 @@ abstract class AbstractGrid
         $this->prepare();
     }
 
+    /**
+     * @return void
+     */
     public function prepare(): void
     {
         $this->gridOptions = $this->getGridOptions();
@@ -35,6 +41,9 @@ abstract class AbstractGrid
         $this->prepareNavigation();
     }
 
+    /**
+     * @return void
+     */
     public function prepareNavigation(): void
     {
         $gridOptions = $this->getGridOptions();
@@ -52,41 +61,65 @@ abstract class AbstractGrid
         $this->navigation = $navigation;
     }
 
+    /**
+     * @return string
+     */
     public function getGridId(): string
     {
         return 'laptops_' . $this->entity;
     }
 
+    /**
+     * @return string
+     */
     public function getAjaxId(): string
     {
         return \CAjax::getComponentID('bitrix:main.ui.grid', '.default', '');
     }
 
+    /**
+     * @return Options
+     */
     public function getGridOptions(): Options
     {
         return new Options($this->getGridId());
     }
 
+    /**
+     * @return array
+     */
     public function getFilterFields(): array
     {
         return $this->filterFields;
     }
 
+    /**
+     * @return array
+     */
     public function getSortFields(): array
     {
         return $this->gridOptions->GetSorting(self::SORTING);
     }
 
+    /**
+     * @return PageNavigation
+     */
     public function getNavigation(): PageNavigation
     {
         return $this->navigation;
     }
 
+    /**
+     * @return int
+     */
     public function getCount(): int
     {
         return $this->navigation->getRecordCount() ?? 0;
     }
 
+    /**
+     * @return array
+     */
     public function getItems(): array
     {
         $fetchedElements = $this->fetchElements(
@@ -98,16 +131,31 @@ abstract class AbstractGrid
         return array_map(fn($item) => ['data' => $item], $fetchedElements);
     }
 
+    /**
+     * @param array          $filterFields
+     * @param array          $sortingFields
+     * @param PageNavigation $navigation
+     *
+     * @return array
+     */
     public function fetchElements(array $filterFields, array $sortingFields, PageNavigation $navigation): array
     {
         return [];
     }
 
+    /**
+     * @return array
+     */
     public function getColumns(): array
     {
         return [];
     }
 
+    /**
+     * @param array $filterFields
+     *
+     * @return int
+     */
     public function getCountElement(array $filterFields): int
     {
         return 0;

@@ -6,6 +6,9 @@ use Barrelblur\Laptops\Classes\URL;
 
 class LaptopsListComponent extends CBitrixComponent
 {
+    /**
+     * @param $component
+     */
     public function __construct($component = null)
     {
         parent::__construct($component);
@@ -17,7 +20,10 @@ class LaptopsListComponent extends CBitrixComponent
         }
     }
 
-    public function executeComponent()
+    /**
+     * @return void
+     */
+    public function executeComponent(): void
     {
         $this->configureSingletons();
 
@@ -25,7 +31,11 @@ class LaptopsListComponent extends CBitrixComponent
         $this->includeComponentTemplate();
     }
 
-    public function getResult()
+    /**
+     * @return void
+     * @throws \Bitrix\Main\ObjectNotFoundException
+     */
+    public function getResult(): void
     {
         $grid = GridFactory::createEntity(
             $this->arParams['ENTITY'],
@@ -40,6 +50,9 @@ class LaptopsListComponent extends CBitrixComponent
         $this->arResult['NAVIGATION'] = $grid->getNavigation();
     }
 
+    /**
+     * @return void
+     */
     public function configureSingletons(): void
     {
         URL::getInstance()->setDefaultSefFolder($this->arParams['SEF_FOLDER']);

@@ -8,6 +8,9 @@ class LaptopsComponent extends CBitrixComponent
     public string $template;
     private URL $url;
 
+    /**
+     * @param $component
+     */
     public function __construct($component = null)
     {
         parent::__construct($component);
@@ -21,13 +24,19 @@ class LaptopsComponent extends CBitrixComponent
         $this->url = URL::getInstance();
     }
 
+    /**
+     * @return void
+     */
     public function executeComponent(): void
     {
         $this->getResult();
         $this->includeComponentTemplate($this->template);
     }
 
-    private function getResult(): void
+    /**
+     * @return void
+     */
+    public function getResult(): void
     {
         [$this->template, $variables] = $this->url->parsePath($this->arParams['SEF_FOLDER'] ?? '');
 
@@ -36,6 +45,12 @@ class LaptopsComponent extends CBitrixComponent
         $this->arResult['FILTER'] = $this->getFilter($this->template, $variables);
     }
 
+    /**
+     * @param string $entity
+     * @param array  $variables
+     *
+     * @return array
+     */
     public function getFilter(string $entity, array $variables): array
     {
         $filterFields = [];

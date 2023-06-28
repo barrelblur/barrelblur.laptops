@@ -17,6 +17,9 @@ class URL
 
     private function __construct() { }
 
+    /**
+     * @return self
+     */
     public static function getInstance(): self
     {
         if (self::$instance === null) {
@@ -25,6 +28,11 @@ class URL
         return self::$instance;
     }
 
+    /**
+     * @param string $sefFolder
+     *
+     * @return array
+     */
     public function parsePath(string $sefFolder): array
     {
         $variables = [];
@@ -40,16 +48,32 @@ class URL
         return [$template, $variables];
     }
 
+    /**
+     * @param string $sefFolder
+     *
+     * @return void
+     */
     public function setDefaultSefFolder(string $sefFolder): void
     {
         $this->sefFolder = $sefFolder;
     }
 
+    /**
+     * @param string $brandCode
+     *
+     * @return string
+     */
     public function getBrandUri(string $brandCode): string
     {
         return $this->sefFolder . str_replace('#BRAND_CODE#', $brandCode, self::URL_TEMPLATES['models']);
     }
 
+    /**
+     * @param string $brandCode
+     * @param string $modelCode
+     *
+     * @return string
+     */
     public function getModelUri(string $brandCode, string $modelCode): string
     {
         return $this->sefFolder . str_replace(
@@ -59,11 +83,21 @@ class URL
             );
     }
 
+    /**
+     * @param string $laptopCode
+     *
+     * @return string
+     */
     public function getLaptopUri(string $laptopCode): string
     {
         return $this->sefFolder . str_replace('#LAPTOP_CODE#', $laptopCode, self::URL_TEMPLATES['detail']);
     }
 
+    /**
+     * @param array $parts
+     *
+     * @return string
+     */
     public function toHref(array $parts): string
     {
         [$title, $link] = $parts;

@@ -12,6 +12,13 @@ class GridFactory
         'laptops' => LaptopsGrid::class,
     ];
 
+    /**
+     * @param string $entity
+     * @param array  $filterFields
+     *
+     * @return AbstractGrid
+     * @throws ObjectNotFoundException
+     */
     public static function createEntity(string $entity, array $filterFields): AbstractGrid
     {
         if (!isset(self::ENTITIES[$entity])) {

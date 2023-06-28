@@ -8,6 +8,9 @@ use Bitrix\Main\UI\PageNavigation;
 
 class ModelsGrid extends AbstractGrid
 {
+    /**
+     * @return array[]
+     */
     public function getColumns(): array
     {
         return [
@@ -32,6 +35,16 @@ class ModelsGrid extends AbstractGrid
         ];
     }
 
+    /**
+     * @param array          $filterFields
+     * @param array          $sortingFields
+     * @param PageNavigation $navigation
+     *
+     * @return array
+     * @throws \Bitrix\Main\ArgumentException
+     * @throws \Bitrix\Main\ObjectPropertyException
+     * @throws \Bitrix\Main\SystemException
+     */
     public function fetchElements(array $filterFields, array $sortingFields, PageNavigation $navigation): array
     {
         $url = $this->url;
@@ -69,6 +82,14 @@ class ModelsGrid extends AbstractGrid
         }, $modelIterator->fetchAll());
     }
 
+    /**
+     * @param array $filterFields
+     *
+     * @return int
+     * @throws \Bitrix\Main\ArgumentException
+     * @throws \Bitrix\Main\ObjectPropertyException
+     * @throws \Bitrix\Main\SystemException
+     */
     public function getCountElement(array $filterFields): int
     {
         $modelIterator = ModelTable::getList([
